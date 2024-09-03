@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           
+            Book book = new Book(10);
+
+            book.DisplayProgramFlow();
+
+            Console.ReadLine();
         }
     }
 }
