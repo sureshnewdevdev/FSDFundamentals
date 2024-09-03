@@ -1,4 +1,5 @@
-﻿namespace FSDFundamentals
+﻿
+namespace FSDFundamentals
 {
     internal class Program
     {
@@ -19,9 +20,15 @@
 
 
             Son son = new Son() { Id =1000, Name ="Son" };
-            
 
-            //Dauhter dauhter = new Dauhter();
+
+            Dauhter daughter = new Dauhter()
+            { 
+                Id = 2000, 
+                Name = "Daughter" 
+            };
+
+            father = daughter;
 
             father = son;
 
@@ -34,8 +41,26 @@
 
             s1.GoingSchool(); // the child or son property is called from father or parent object.
 
+            DisplayObject(son);
+            DisplayObject(daughter);
 
             #endregion
+        }
+
+        private static void DisplayObject(Father father)
+        {
+            Console.WriteLine( father.Name + "  " + father.Id);
+
+            if (father is Son)
+            {
+
+            }
+
+            if (father is Dauhter)
+            {
+
+            }
+
         }
     }
 }
