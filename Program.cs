@@ -17,8 +17,12 @@ namespace FSDFundamentals
 
             //InheritanceExample();
 
-            AbstractClassExample();
+            //AbstractClassExample();
+
+            LoopingState l = new LoopingState();
+            l.SomeFunction();
             
+            Console.ReadLine();
         }
 
         private static void AbstractClassExample()

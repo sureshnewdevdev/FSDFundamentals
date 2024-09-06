@@ -9,19 +9,32 @@ namespace FSDFundamentals
     public interface IProduct
     {
         int GetProductWeight();
-        int GetOwnerName();
+        string GetOwnerName();
     }
 
     public class MyProduct : IProduct
     {
-        public int GetOwnerName()
+        public string GetOwnerName()
         {
-            throw new NotImplementedException();
+            return "MRF";
         }
 
         public int GetProductWeight()
         {
-            throw new NotImplementedException();
+            return 5;
+        }
+    }
+
+    public class Type : IProduct
+    {
+        public string GetOwnerName()
+        {
+            return "Nylon";
+        }
+
+        public int GetProductWeight()
+        {
+            return 4;
         }
     }
 }
