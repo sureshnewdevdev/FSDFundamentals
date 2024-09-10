@@ -20,8 +20,10 @@ namespace FSDFundamentals
             //AbstractClassExample();
 
             LoopingState l = new LoopingState();
-            l.SomeFunction();
-            
+            //l.SomeFunction();
+
+            l.ForLoopExample2();
+
             Console.ReadLine();
         }
 
