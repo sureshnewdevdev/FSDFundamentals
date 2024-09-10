@@ -19,10 +19,17 @@ namespace FSDFundamentals
 
             //AbstractClassExample();
 
-            LoopingState l = new LoopingState();
+            //LoopingState l = new LoopingState();
             //l.SomeFunction();
 
-            l.ForLoopExample2();
+            //l.ForLoopExample2();
+
+
+            WhileLoopExamples whileLoopExamples = new WhileLoopExamples();
+            //whileLoopExamples.Example1();
+
+            //whileLoopExamples.Example2();
+            whileLoopExamples.Example3();
 
             Console.ReadLine();
         }
