@@ -25,11 +25,15 @@ namespace FSDFundamentals
             //l.ForLoopExample2();
 
 
-            WhileLoopExamples whileLoopExamples = new WhileLoopExamples();
+            //WhileLoopExamples whileLoopExamples = new WhileLoopExamples();
             //whileLoopExamples.Example1();
 
             //whileLoopExamples.Example2();
-            whileLoopExamples.Example3();
+            //whileLoopExamples.Example3();
+
+            DoWhileExample doWhileExample=new DoWhileExample();
+
+            doWhileExample.ExampleOfDoWhile();
 
             Console.ReadLine();
         }
