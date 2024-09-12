@@ -15,12 +15,15 @@ namespace FSDFundamentals
 
             #endregion
 
-            //InheritanceExample();
+            // InheritanceExample();
 
-            //AbstractClassExample();
+            /*
+             * This function is checking abstract
+             */
+            // AbstractClassExample();
 
-            //LoopingState l = new LoopingState();
-            //l.SomeFunction();
+            // LoopingState l = new LoopingState();
+            // l.SomeFunction();
 
             //l.ForLoopExample2();
 
@@ -31,9 +34,21 @@ namespace FSDFundamentals
             //whileLoopExamples.Example2();
             //whileLoopExamples.Example3();
 
-            DoWhileExample doWhileExample=new DoWhileExample();
+            //DoWhileExample doWhileExample=new DoWhileExample();
 
-            doWhileExample.ExampleOfDoWhile();
+            //doWhileExample.ExampleOfDoWhile();
+
+
+            ConditionalOperator conditionalOperator = new ConditionalOperator();
+
+            //conditionalOperator.ExampleOfStringOperations();
+
+            conditionalOperator.ExampleReplaceSpace();
+
+
+            var callobejct = new ConditionalOperator();
+            callobejct.ExampleReplaceSpace();
+
 
             Console.ReadLine();
         }
