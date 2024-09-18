@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSDFundamentals", "FSDFundamentals.csproj", "{73863A94-0EBA-4A2F-83F6-22661BE53855}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSDFundamentals", "FSDFundamentals.csproj", "{73863A94-0EBA-4A2F-83F6-22661BE53855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsLib", "..\MathsLib\MathsLib.csproj", "{79C7CE67-7DBF-4537-B5CF-CB42829F8A4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIMaths", "..\AIMaths\AIMaths.csproj", "{386E005E-4838-4C02-81E3-380EA875D707}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{73863A94-0EBA-4A2F-83F6-22661BE53855}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73863A94-0EBA-4A2F-83F6-22661BE53855}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73863A94-0EBA-4A2F-83F6-22661BE53855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C7CE67-7DBF-4537-B5CF-CB42829F8A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C7CE67-7DBF-4537-B5CF-CB42829F8A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C7CE67-7DBF-4537-B5CF-CB42829F8A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C7CE67-7DBF-4537-B5CF-CB42829F8A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386E005E-4838-4C02-81E3-380EA875D707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386E005E-4838-4C02-81E3-380EA875D707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386E005E-4838-4C02-81E3-380EA875D707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386E005E-4838-4C02-81E3-380EA875D707}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

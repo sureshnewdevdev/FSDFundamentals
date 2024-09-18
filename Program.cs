@@ -1,5 +1,8 @@
 ﻿
 
+using ClassCreation;
+using MathsLib;
+
 namespace FSDFundamentals
 {
     internal class Program
@@ -43,12 +46,40 @@ namespace FSDFundamentals
 
             //conditionalOperator.ExampleOfStringOperations();
 
-            conditionalOperator.ExampleReplaceSpace();
+            //conditionalOperator.ExampleReplaceSpace();
 
 
-            var callobejct = new ConditionalOperator();
-            callobejct.ExampleReplaceSpace();
+            //var callobejct = new ConditionalOperator();
+            //callobejct.ExampleReplaceSpace();
 
+             //ExamplesOfStrings examplesOfStrings = new ExamplesOfStrings();
+
+            //examplesOfStrings.ReverseString();
+
+            //NuroNumberSystem nuroNumberSystem=new NuroNumberSystem();
+
+            //var result = nuroNumberSystem.BrainWeight();
+            //Console.WriteLine(result);
+
+            //examplesOfStrings.CommonMethods();
+
+
+            //int x = 100; //int 
+            //object obj = x; // object
+
+            //int unboxedValue = (int)obj; // unboxing
+
+            //Maths m = new Maths();
+            //obj = m;
+
+            //ExampleOfCollection collection = new ExampleOfCollection();
+
+            //collection.WorkOut();
+
+
+            ExampleDataStructureWithCollection exampleDataStructureWithCollection = new ExampleDataStructureWithCollection();
+
+            exampleDataStructureWithCollection.Workout();
 
             Console.ReadLine();
         }

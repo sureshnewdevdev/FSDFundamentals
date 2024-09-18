@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AIMaths\AIMaths.csproj" />
+    <ProjectReference Include="..\MathsLib\MathsLib.csproj" />
+  </ItemGroup>
+
 </Project>
