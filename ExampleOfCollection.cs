@@ -46,6 +46,10 @@ namespace FSDFundamentals
                 {
                     integerSum += (int)item; // integerSum = integerSum+(int)item;
                 }
+                if(item is long)
+                {
+
+                }
             }
         }
     }

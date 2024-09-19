@@ -36,6 +36,22 @@ namespace FSDFundamentals
             value = queue.Dequeue();
             Console.WriteLine(value);
 
+           List<int> list = new List<int>();
+            list.Add(1);
+            list.Add(2);
+
+            int sum = 0;
+            
+            for (int i = 0; i < list.Count; i++)
+            {
+                sum+= list[i];
+            }
+
+           
+
+            Console.WriteLine(sum);
+
+
 
         }
     }

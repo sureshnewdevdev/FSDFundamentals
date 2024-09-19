@@ -23,6 +23,8 @@ namespace FSDFundamentals
             /*
              * This function is checking abstract
              */
+
+
             // AbstractClassExample();
 
             // LoopingState l = new LoopingState();
@@ -42,7 +44,7 @@ namespace FSDFundamentals
             //doWhileExample.ExampleOfDoWhile();
 
 
-            ConditionalOperator conditionalOperator = new ConditionalOperator();
+            //ConditionalOperator conditionalOperator = new ConditionalOperator();
 
             //conditionalOperator.ExampleOfStringOperations();
 
@@ -52,7 +54,7 @@ namespace FSDFundamentals
             //var callobejct = new ConditionalOperator();
             //callobejct.ExampleReplaceSpace();
 
-             //ExamplesOfStrings examplesOfStrings = new ExamplesOfStrings();
+            //ExamplesOfStrings examplesOfStrings = new ExamplesOfStrings();
 
             //examplesOfStrings.ReverseString();
 
@@ -77,9 +79,16 @@ namespace FSDFundamentals
             //collection.WorkOut();
 
 
-            ExampleDataStructureWithCollection exampleDataStructureWithCollection = new ExampleDataStructureWithCollection();
+            //ExampleDataStructureWithCollection exampleDataStructureWithCollection = new ExampleDataStructureWithCollection();
 
-            exampleDataStructureWithCollection.Workout();
+            //exampleDataStructureWithCollection.Workout();
+
+            ExampleOfGenerics exampleOfGenerics = new ExampleOfGenerics();
+
+            //exampleOfGenerics.Workout();
+
+            exampleOfGenerics.UsingDictionary();
+
 
             Console.ReadLine();
         }
