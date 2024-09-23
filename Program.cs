@@ -5,6 +5,17 @@ using MathsLib;
 
 namespace FSDFundamentals
 {
+
+    class ProductItem
+    {
+        public int ProductId { get; set; }
+        public string ProductName { get; set; }
+
+        public override string ToString()
+        {
+            return $" Product Id  = { ProductId } - Product Name {ProductName}  ";
+        }
+    }
     internal class Program
     {
         static void Main(string[] args)
@@ -83,12 +94,18 @@ namespace FSDFundamentals
 
             //exampleDataStructureWithCollection.Workout();
 
-            ExampleOfGenerics exampleOfGenerics = new ExampleOfGenerics();
+            //ExampleOfGenerics exampleOfGenerics = new ExampleOfGenerics();
 
             //exampleOfGenerics.Workout();
 
-            exampleOfGenerics.UsingDictionary();
+            //exampleOfGenerics.UsingDictionary();
 
+            ProductItem productItem = new ProductItem();
+            productItem.ProductId = 10;
+            productItem.ProductName = "Apple";
+
+
+            Console.WriteLine(productItem);
 
             Console.ReadLine();
         }
