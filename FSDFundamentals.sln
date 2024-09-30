@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathsLib", "..\MathsLib\Mat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIMaths", "..\AIMaths\AIMaths.csproj", "{386E005E-4838-4C02-81E3-380EA875D707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamental2", "..\Fundamental2\Fundamental2.csproj", "{35765AFD-E62E-4B1C-B921-7D83D189EB27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamental2", "..\Fundamental2\Fundamental2.csproj", "{35765AFD-E62E-4B1C-B921-7D83D189EB27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleExtentensionMEthod", "..\ExampleExtentensionMEthod\ExampleExtentensionMEthod.csproj", "{C8A3E7ED-A788-4E03-8D13-EF9D340574E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleProtectedInternal", "..\ExampleProtectedInternal\ExampleProtectedInternal.csproj", "{49CAE42F-A565-438D-AE43-F65F80B7A9AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleProtectedInternal2", "..\ExampleProtectedInternal2\ExampleProtectedInternal2.csproj", "{B242A2A4-B21D-4FE5-A1F8-A497E554D248}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{35765AFD-E62E-4B1C-B921-7D83D189EB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35765AFD-E62E-4B1C-B921-7D83D189EB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35765AFD-E62E-4B1C-B921-7D83D189EB27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A3E7ED-A788-4E03-8D13-EF9D340574E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A3E7ED-A788-4E03-8D13-EF9D340574E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A3E7ED-A788-4E03-8D13-EF9D340574E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A3E7ED-A788-4E03-8D13-EF9D340574E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CAE42F-A565-438D-AE43-F65F80B7A9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CAE42F-A565-438D-AE43-F65F80B7A9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CAE42F-A565-438D-AE43-F65F80B7A9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CAE42F-A565-438D-AE43-F65F80B7A9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B242A2A4-B21D-4FE5-A1F8-A497E554D248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B242A2A4-B21D-4FE5-A1F8-A497E554D248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B242A2A4-B21D-4FE5-A1F8-A497E554D248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B242A2A4-B21D-4FE5-A1F8-A497E554D248}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
